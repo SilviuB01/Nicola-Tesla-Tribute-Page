@@ -1,0 +1,96 @@
+/* 1rem = 10px */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway' 'Arial', sans-serif;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e7e7e7;
+    padding: 1rem 0 1rem 0;
+    border-radius: 5px;
+}
+
+hr {
+    opacity: 0;
+}
+
+main {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+#title {
+    font-size: 4.5rem;
+    color: #140403;
+}
+
+#img-div {
+    display: grid;
+    margin: 0 auto;    
+}
+
+#image {
+    margin: 3rem auto;
+    margin-bottom: 0px;
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+#img-caption {
+    font-size: 1.3rem;
+    align-self: center;
+    max-width: 800px;
+    justify-self: center;
+}
+
+h2 {
+    padding: 5rem auto 5rem auto;
+}
+
+h3 {
+    padding: 3rem auto 3rem auto;
+}
+
+#tribute-info {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 1500px) {
+    #tribute-info {
+        max-width: 65%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #tribute-info {
+        max-width: 90%;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: Raleway;
+}
